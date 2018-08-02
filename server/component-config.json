@@ -7,6 +7,9 @@
     "dataSource": "maintainer",
     "loginPage": "/oauth2/token",
     "loginPath": "/oauth2/token",
-    "addHttpHeaders": "X-"
+    "authorizePath": "/oauth2/token",
+    "addHttpHeaders": "X-",
+    "authorizationServer": true,
+    "resourceServer": true
   }
 }
