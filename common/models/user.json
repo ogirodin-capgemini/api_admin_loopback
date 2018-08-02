@@ -1,0 +1,38 @@
+{
+  "name": "user",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "update_date": {
+      "type": "date"
+    },
+    "creation_date": {
+      "type": "date"
+    },
+    "role_id": {
+      "type": "number"
+    },
+    "activation_key": {
+      "type": "string"
+    },
+    "user_pkey": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

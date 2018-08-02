@@ -1,0 +1,56 @@
+{
+  "name": "parks",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "string"
+    },
+    "maintainer_name": {
+      "type": "string"
+    },
+    "maintainer_phone": {
+      "type": "string"
+    },
+    "maintainer_schedule": {
+      "type": "string"
+    },
+    "maintainer_email": {
+      "type": "string"
+    },
+    "maintainer_website": {
+      "type": "string"
+    },
+    "update_date": {
+      "type": "date"
+    },
+    "maintainer_id": {
+      "type": "number"
+    },
+    "action_id": {
+      "type": "number"
+    },
+    "creation_date": {
+      "type": "date"
+    },
+    "phone_legal_mention": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

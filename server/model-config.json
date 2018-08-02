@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Note": {
+    "dataSource": "db"
+  },
+  "CoffeeShop": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "maintainers": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "roles": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "action_terminals": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "actions": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "migrations": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "parks": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "radio_types": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "role_scopes": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "scopes": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "ssl_profils": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "terminals": {
+    "dataSource": "maintainer",
+    "public": true
+  },
+  "User": {
+    "dataSource": "db",
+    "public": true
+  }
+}

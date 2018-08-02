@@ -1,0 +1,35 @@
+{
+  "name": "actions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "begin_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string"
+    },
+    "sub_actions": {
+      "type": "string"
+    },
+    "update_date": {
+      "type": "date"
+    },
+    "maintainer_id": {
+      "type": "number"
+    },
+    "creation_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

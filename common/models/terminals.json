@@ -1,0 +1,81 @@
+{
+  "name": "terminals",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sn": {
+      "type": "string"
+    },
+    "product_code": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "radio": {
+      "type": "number"
+    },
+    "data": {
+      "type": "object"
+    },
+    "update_date": {
+      "type": "date"
+    },
+    "park_id": {
+      "type": "number"
+    },
+    "creation_date": {
+      "type": "date"
+    },
+    "product_reference": {
+      "type": "string"
+    },
+    "flash_size": {
+      "type": "number"
+    },
+    "free_flash_size": {
+      "type": "number"
+    },
+    "ram_size": {
+      "type": "number"
+    },
+    "free_ram_size": {
+      "type": "number"
+    },
+    "auto_synchro_date": {
+      "type": "date"
+    },
+    "phone_legal_mention": {
+      "type": "string"
+    },
+    "sw_packages": {
+      "type": "string"
+    },
+    "appversion": {
+      "type": "string"
+    },
+    "profileslist": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

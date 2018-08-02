@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "maintainer": {
+    "host": "db",
+    "port": 5432,
+    "database": "maintainer",
+    "password": "t6n6gGz5staxvQJEQp",
+    "name": "maintainer",
+    "user": "admin",
+    "connector": "postgresql",
+    "ssl": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "maintainers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "update_date": {
+      "type": "date"
+    },
+    "creation_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "roles": {
+      "type": "hasOne",
+      "model": "roles",
+      "foreignKey": "maintainer_id",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,12 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true
+  },
+  "loopback-component-oauth2": {
+    "dataSource": "maintainer",
+    "loginPage": "/oauth2/token",
+    "loginPath": "/oauth2/token",
+    "addHttpHeaders": "X-"
+  }
+}
